@@ -43,17 +43,14 @@ const config: Config = {
   ],
   plugins: ["docusaurus-plugin-sass", "docusaurus-plugin-fontloader"],
   themeConfig: {
-    image: "img/sidebar-header-logo-svg",
-    // navbar: {
-    //   items: [
-    //     {
-    //       to: "https://dapplets.org/",
-    //       label: "Home",
-    //       position: "right",
-    //       className: "home-hover-menu",
-    //     },
-    //   ],
-    // },
+    navbar: {
+      logo: {
+        alt: "My Site Logo",
+        src: "img/sidebar-header-logo.svg",
+        width: 280,
+        height: 120,
+      },
+    },
     footer: {
       links: [
         {
