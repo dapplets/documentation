@@ -32,6 +32,16 @@ const sidebars: SidebarsConfig = {
         "universal-life-cycle-in-mutable-web/universal-life-cycle-in-mutable-web",
       ],
     },
+    {
+      type: "category",
+      collapsed: true,
+      label: "Examples",
+      items: [
+        "examples/examples-of-app-configurations",
+        "examples/examples-of-mutation-configurations",
+        "examples/examples-of-parsers-configurations",
+      ],
+    },
   ],
 };
 
