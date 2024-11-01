@@ -35,6 +35,14 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       collapsed: true,
+      label: "Features",
+      items: [
+        "features/picker",
+      ],
+    },
+    {
+      type: "category",
+      collapsed: true,
       label: "Examples",
       items: [
         "examples/examples-of-app-configurations",
