@@ -4,7 +4,7 @@ id: examples-of-mutation-configurations
 
 # Mutation Schema
 
-The **mutation** schema is designed to enhance accessibility to intelligence across various platforms. This document provides an overview of the schema configuration, including its metadata, target applications, and contextual conditions.
+The mutation schema is designed to enhance accessibility to intelligence across various platforms. This document provides an overview of the schema configuration, including its metadata, target applications, and contextual conditions.
 
 ## Overview
 

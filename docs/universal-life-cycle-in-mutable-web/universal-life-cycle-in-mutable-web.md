@@ -80,14 +80,14 @@ When publishing a fork, Mutable Web ensures that the original mutation is not al
 
 Each mutation can follow a different path depending on its origin:
 
-1. **Forking Someone Else’s Mutation**:
+1. *Forking Someone Else’s Mutation*:
 
-2. **Forking Your Own Mutation**:
+2. *Forking Your Own Mutation*:
 
-3. **Creating a Mutation from Scratch**:
+3. *Creating a Mutation from Scratch*:
 
-4. **Editing Your Own Mutation (No Origin)**:
+4. *Editing Your Own Mutation (No Origin)*:
 
-5. **Editing Your Own Mutation (With Origin)**:
+5. *Editing Your Own Mutation (With Origin)*:
 
 By following these workflows, Mutable Web maintains a streamlined process for creating, editing, and managing mutations, ensuring both flexibility and control for developers and users alike.
