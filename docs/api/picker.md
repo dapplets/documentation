@@ -10,7 +10,7 @@ id: api-picker
 
 For examples and details on the usage of this React components, visit the feature demo page:
 
-[Picker](/docs/features/picker)
+[Picker](/docs/features/feature-picker)
 
 :::
 

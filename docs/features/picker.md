@@ -14,7 +14,7 @@ To try out the Picker in action, you can use the **Picker Example** application.
 
 ![Mutable Web browser extension in Chrome Web Store](/img/picker/docs-picker-00.png)
 
-For more details about the extension, see [here](/docs/how-to-use).
+For more details about the extension, see [here](/docs/how-to-start).
 
 ### Welcome mutation
 
@@ -52,4 +52,4 @@ To exit Picker mode, click the Close button at the top right of the popup, or cl
 
 ## API
 
-- [Picker](/docs/api/picker)
+- [Picker](/docs/api/api-picker)
