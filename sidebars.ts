@@ -50,6 +50,14 @@ const sidebars: SidebarsConfig = {
         "examples/examples-of-parsers-configurations",
       ],
     },
+    {
+      type: "category",
+      collapsed: true,
+      label: "API",
+      items: [
+        "api/picker",
+      ],
+    },
   ],
 };
 

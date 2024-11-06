@@ -1,5 +1,5 @@
 ---
-id: picker
+id: feature-picker
 ---
 
 # Picker
@@ -14,7 +14,7 @@ To try out the Picker in action, you can use the **Picker Example** application.
 
 ![Mutable Web browser extension in Chrome Web Store](/img/picker/docs-picker-00.png)
 
-For more details about the extension, see [here](ToDo: link).
+For more details about the extension, see [here](/docs/how-to-use).
 
 ### Welcome mutation
 
@@ -51,3 +51,5 @@ If there is a button with plus icon or a double lightning icon next to the highl
 To exit Picker mode, click the Close button at the top right of the popup, or click the **Run Picker** button in the sidebar again.
 
 ## API
+
+- [Picker](/docs/api/picker)
