@@ -6,7 +6,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Getting Started",
       collapsed: false,
-      items: ["introduction", "how-to-use"],
+      items: ["introduction", "why-mutable-web", "how-to-start"],
     },
     {
       type: "category",

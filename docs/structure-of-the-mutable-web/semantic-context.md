@@ -4,9 +4,9 @@ id: semantic-context
 
 # Semantic Context
 
-The **Mutable Web** introduces a decentralized model where users have control over how websites function and appear in their browser. At the core of this system is the **semantic context**, where the concept of **ownership** shifts from a centralized entity to a community-driven structure.
+The **Mutable Web** introduces a decentralized model where users have control over how websites function and appear in their browser. At the core of this system is the semantic context, where the concept of ownership shifts from a centralized entity to a community-driven structure.
 
-In the traditional web, the website owner controls key aspects like data, design, and policies. In contrast, the **Mutable Web** allows users to modify, fork, and propose changes to the original website through **Mutations**—small units of functionality that alter the behavior of a site.
+In the traditional web, the website owner controls key aspects like data, design, and policies. In contrast, the **Mutable Web** allows users to modify, fork, and propose changes to the original website through Mutations—small units of functionality that alter the behavior of a site.
 
 - **Welcome Mutation**: This is the default mutation for a new site upon first visit.
 - **Favorite Mutation**: Users can set any current mutation as their favorite for a specific site.
