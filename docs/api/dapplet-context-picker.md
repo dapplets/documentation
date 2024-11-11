@@ -1,8 +1,10 @@
 ---
-id: api-picker
+id: dapplet-context-picker
 ---
 
-# Picker
+# DappletContextPicker
+
+DappletContextPicker is a component that enables context picking mode, provides latches for specific contexts, and onClick callback functions.
 
 ## Demos
 
@@ -14,62 +16,21 @@ For examples and details on the usage of this React components, visit the featur
 
 :::
 
-## DappletContextPicker
-
-DappletContextPicker is a component that enables context picking mode, provides latches for specific contexts, and onClick callback functions.
-
-### Basic usecase
+## Basic usecase
 
 You don't need to import the component. It's available in the NEAR Components through the Layout Managers.
 
 ```jsx
-// prettier-ignore
-<DappletContextPicker
-  onClick={onClick}
-  LatchComponent={LatchComponent}
-/>
+<DappletContextPicker onClick={onClick} LatchComponent={LatchComponent} />
 ```
 
-### Props
-
-#### \<DappletContextPicker/\>
+## Props
 
 | Name                 |                 Type                 | Optional | Description                                                                                                                                                                         |
 | :------------------- | :----------------------------------: | :------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **`target`**         |        `Target` or `Target[]`        |    ✔️    | The set of target contexts that will be highlighted and available for selection. By default, all contexts on the page provided by the available adapters will be active for Picker. |
 | **`onClick`**        | `(ctx: TransferableContext) => void` |    ✔️    | A callback that will be called when the context is clicked.                                                                                                                         |
 | **`LatchComponent`** |        `React.FC<LatchProps>`        |    ✔️    | Adding a Latch component. Contexts with Latch become interactive. `onClick` is called when the Latch is clicked.                                                                    |
-
-## Highlighter
-
-Highlighter is a component that highlights a target element using specified styles.
-
-### Basic usecase
-
-You don't need to import the component. It's available in the NEAR Components through the Layout Managers.
-
-```jsx
-// prettier-ignore
-<Highlighter
-  target={target}
-  isFirstTargetOnly={isFirstTargetOnly}
-/>
-```
-
-### Props
-
-#### \<Highlighter/\>
-
-It takes in properties defined by THighlighterTask, including target, styles, icon, action, and an optional filled state.
-
-| Name                    |         Type          | Optional | Description                                                                                                                                                    |
-| :---------------------- | :-------------------: | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **`target`**            |  `InjectableTarget`   |          | The target context to be highlighted                                                                                                                           |
-| **`isFirstTargetOnly`** |       `boolean`       |    ✔️    | If `true`, only the first visible context of the specified type on the page will be selected. If the page is scrolled, a new visible context will be selected. |
-| **`styles`**            | `React.CSSProperties` |    ✔️    | CSS styles for the highlighting. Can be set: position, backgroundColor, border, borderWidth, borderStyle, borderColor, borderRadius, zIndex, opacity, cursor   |
-| **`isFilled`**          |       `boolean`       |    ✔️    | If `true`, a color overlay will be placed on the target context. You can add a click interaction to it using the `action` prop.                                |
-| **`icon`**              |    `ReactElement`     |    ✔️    | The image that will be displayed in the center of the filled target context.                                                                                   |
-| **`action`**            |     `() => void`      |    ✔️    | A callback that will be called when a filled context is clicked.                                                                                               |
 
 ## Common Types
 

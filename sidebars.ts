@@ -37,7 +37,15 @@ const sidebars: SidebarsConfig = {
 			type: 'category',
 			collapsed: true,
 			label: 'API',
-			items: ['api/api-picker'],
+			items: [
+				'api/dapplet-context-picker',
+				'api/highlighter',
+				'api/injectable-target',
+				'api/latch-props',
+				'api/target',
+				'api/target-condition',
+				'api/transferable-context',
+			],
 		},
 	],
 }

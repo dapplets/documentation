@@ -73,10 +73,6 @@ const config: Config = {
 		colorMode: {
 			disableSwitch: true,
 		},
-		prism: {
-			theme: prismThemes.ultramin,
-			darkTheme: prismThemes.duotoneDark,
-		},
 		algolia: {
 			// The application ID provided by Algolia
 			appId: 'RV9UMBHX9R',

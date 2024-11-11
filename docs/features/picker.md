@@ -50,4 +50,4 @@ To exit Picker mode, click the Close button at the top right of the popup, or cl
 
 ## API
 
-- [Picker](/docs/api/api-picker)
+- [Picker](/docs/api/dapplet-context-picker)
