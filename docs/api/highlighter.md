@@ -6,13 +6,15 @@ id: highlighter
 
 Highlighter is a component that highlights a target element using specified styles.
 
+The [DappletContextPicker](/docs/api/dapplet-context-picker) feature uses this component under the hood to highlight the contexts that are available for selection.
+
 ## Demos
 
 :::tip
 
 For examples and details on the usage of this React components, visit the feature demo page:
 
-[Picker](/docs/features/feature-picker)
+[Picker](/docs/features/picker)
 
 :::
 

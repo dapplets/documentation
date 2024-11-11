@@ -12,7 +12,7 @@ DappletContextPicker is a component that enables context picking mode, provides 
 
 For examples and details on the usage of this React components, visit the feature demo page:
 
-[Picker](/docs/features/feature-picker)
+[Picker](/docs/features/picker)
 
 :::
 

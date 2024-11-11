@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
 			type: 'category',
 			collapsed: true,
 			label: 'Features',
-			items: ['features/feature-picker'],
+			items: ['features/picker'],
 		},
 		{
 			type: 'category',
