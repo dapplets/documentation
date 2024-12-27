@@ -4,8 +4,7 @@ id: connected-accounts
 
 # Connected Accounts
 
-![connecting-accounts-dapplet](/img/connected-accounts/connected-accounts-02.png#gh-light-mode-only)
-![connecting-accounts-dapplet](/img/connected-accounts/connected-accounts-01.png#gh-dark-mode-only)
+![connecting-accounts-dapplet](/img/connected-accounts/connected-accounts-02.png)
 
 The Connected Accounts service allows you to pair accounts of various social networks with blockchain accounts. Thus, the user can create his own network of accounts, which can be represented as a graph.
 
