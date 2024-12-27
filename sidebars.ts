@@ -45,6 +45,7 @@ const sidebars: SidebarsConfig = {
 				'api/target',
 				'api/target-condition',
 				'api/transferable-context',
+				'api/get-connected-accounts-net',
 			],
 		},
 	],
