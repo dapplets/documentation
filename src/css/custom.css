@@ -2,3 +2,8 @@
   --ifm-color-primary: #1879ce;
   --ifm-code-font-size: 95%;
 }
+
+.markdown img {
+  display: block;
+  margin: 0 auto;
+}
